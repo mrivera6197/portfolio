@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9b1c5e1.css",
+    "main.js": "/static/js/main.ae4bf630.js",
+    "static/media/porch.jpg": "/static/media/porch.701bb730cee032ae69e2.jpg",
+    "static/media/greenumbrella.JPG": "/static/media/greenumbrella.c787da89485fb4b565bb.JPG",
+    "static/media/birds.JPG": "/static/media/birds.84e85deb262dd1b73a87.JPG",
+    "static/media/fadedoranfe.jpg": "/static/media/fadedoranfe.8130f27dc1ab6d0871d0.jpg",
+    "static/media/twerkonthatbeat.jpg": "/static/media/twerkonthatbeat.80d570d6c275b1eb4ab1.jpg",
+    "static/media/backdrop.jpg": "/static/media/backdrop.709965d3a59dd2817395.jpg",
+    "static/media/blackandwhite.jpg": "/static/media/blackandwhite.72f57a5bf84437d29bdf.jpg",
+    "static/media/watercolor.jpg": "/static/media/watercolor.0fca8b5dca2f778f106e.jpg",
+    "static/media/walking.jpg": "/static/media/walking.2e31304cf419767fecec.jpg",
+    "static/media/bridge.jpg": "/static/media/bridge.6d52c1ee5f983f752a4d.jpg",
+    "static/media/rollinh.jpg": "/static/media/rollinh.3bbe83e5ef997066d385.jpg",
+    "static/media/yessssssss.jpg": "/static/media/yessssssss.27dd24e84418867a0e86.jpg",
+    "static/media/step.jpg": "/static/media/step.6bf561b7c6a9c122c73a.jpg",
+    "static/media/whitemiami.JPG": "/static/media/whitemiami.ae2de4cd5b84212e8759.JPG",
+    "static/media/step2.jpg": "/static/media/step2.b54f0b83893498814432.jpg",
+    "static/media/yessssss.JPG": "/static/media/yessssss.9f667a42fbe9a75c510a.JPG",
+    "static/media/werk.jpg": "/static/media/werk.bd8f2110c24e53a4acd8.jpg",
+    "static/media/cubey.jpg": "/static/media/cubey.a5cd7a203833546d1495.jpg",
+    "static/media/blurred.jpg": "/static/media/blurred.fbf7c7899b7f5c5ca8bd.jpg",
+    "index.html": "/index.html",
+    "main.f9b1c5e1.css.map": "/static/css/main.f9b1c5e1.css.map",
+    "main.ae4bf630.js.map": "/static/js/main.ae4bf630.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9b1c5e1.css",
+    "static/js/main.ae4bf630.js"
+  ]
+}
