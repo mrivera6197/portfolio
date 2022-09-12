@@ -89,7 +89,10 @@ body{
 .smallContainer {
   overflow: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 95vh;
+  margin: 5rem 10rem;
 }
 
 .title {
@@ -97,7 +100,6 @@ body{
   flex-direction: column;
   margin-top: 5rem;
   align-items: center;
-  height: 100vh;
   width: 50rem;
 }
 
@@ -116,6 +118,7 @@ body{
     transform: translateY(0%);
   }
 }
+
 
 .homeContent {
   margin: 10rem 0;
@@ -172,7 +175,9 @@ body{
   60% {
     transform: scale(1.05);
   }
-}
+} 
+
+
 
 .imgContainer {
   /* border: 1px solid red; */
@@ -691,6 +696,8 @@ li {
   box-shadow: rgba(246, 246, 248, 0.982) 0px 4px 16px 15px, rgba(248, 248, 252, 0.964) 0px 8px 24px, rgba(244, 244, 245, 0.99) 0px 16px 56px 15px;
 }
 
+
+
 /* contact page*/
 
 .formPage {
@@ -793,3 +800,91 @@ li {
   padding: 1rem; 
   margin-top: 1rem;
 }
+
+
+
+/* iphones */
+@media (max-width: 500px) {
+  body {
+  } 
+
+  .smallContainer {
+    margin: 3rem 0;  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .homeContent {
+   width: 10rem;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 3rem 0; 
+    color: rgb(99, 94, 94);
+  }
+
+  .homeSub {
+    width: 15rem; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+    /* portal */
+
+    .flexy {
+      height: 90vh; 
+      border: 1px solid green; 
+      background-color: black;
+    }
+  
+    .container1 {
+      border: 1px solid red;
+      background-size: cover;
+    }
+  
+    .container2 {
+      width: 100%; 
+      border: 1 px solid pink;
+    }
+  
+    .container3 {
+      width: 100%; 
+      height: 90vh;
+      border: 1 px solid pink;
+    }
+  
+    .container4 {
+      width: 90%; 
+      height: 90vh;
+    }
+
+    /* contact */
+    .formPage {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .formContainer {
+      width: 85%;
+      background-size: cover;
+    }
+
+    .formPage form {
+      width: 90%;
+      margin-top: 1rem;
+    }
+
+    .formTitle {
+      background-color: rgba(0, 0, 0, 0.396); 
+      width: 50%;
+      height: 7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+  }
+
+ 

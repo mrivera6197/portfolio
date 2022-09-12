@@ -14,11 +14,13 @@ function Home() {
 
 
   return(
-    <div className="smallContainer" >
-        <div className="title" >
+    <>
+    <div className="title" >
           <h3>lemoncub</h3>
+        </div>
+    <div className="smallContainer" >
           <div className="homeContent">
-            <div className="homeSub ">
+            <div className="homeSub">
                 <p></p>
             </div>
             <div className="homeSub">
@@ -31,7 +33,6 @@ function Home() {
                 
             </div>
           </div>
-          </div>
           <div className="imgContainer" >
           {/* <img className="back-img" src={logo} /> */}
           <div className="imgContainer2">
@@ -43,6 +44,7 @@ function Home() {
           </div>
           </div>
     </div>
+    </>
   )
 }
 
