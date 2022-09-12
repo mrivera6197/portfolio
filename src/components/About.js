@@ -13,7 +13,6 @@ function About() {
 
   return(
     <div className="smallContainer flexy"> 
-    <p>escape <br></br>button !!!</p>   
     <div className="container1">  
     <button className="welcomeButton3 colorize"></button>
     <button className="welcomeButton3 colorize"></button>
