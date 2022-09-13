@@ -294,7 +294,7 @@ body{
   flex-direction: column; 
   background-image: url("");
   background-position: center;
-  background-image: url("./assets/bknwhite.jpg");
+  background-image: url("");
   background-size: 300%;
   margin-top: 7rem;
   background-repeat: no-repeat; 
@@ -336,7 +336,7 @@ body{
   margin-left: 10rem;
   color: rgb(23, 22, 22);
   width: 50%;
-  margin-top: 60rem;
+  margin-top: 70rem;
 }
 
 iframe {
@@ -921,7 +921,7 @@ li {
     .photoPage {
       height: 100vh;
       margin-top: 0;
-      background-image: url("./assets/bknwhite.jpg");
+      background-image: url("");
       background-size: 300%;
       margin-top: 7rem;
     }
