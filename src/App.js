@@ -54,7 +54,7 @@ function App() {
             </div>
             <div className="subNav">
             <li>
-            <Link className="link" to="/photography">Photography</Link>
+            <Link className="link" to="/photography">Gallery</Link>
             </li>
             <li>
             <Link className="link" to="/contact">Contact</Link>
