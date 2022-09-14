@@ -551,7 +551,7 @@ iframe {
   animation: photo-in 2s ease; 
   margin: 2rem;
   border-radius: 20px;
-  margin: 15rem;
+  margin: 10rem;
   animation: faded-drank 3s ease-in;
   animation-iteration-count: infinite;
 }   
@@ -1010,6 +1010,178 @@ li {
   margin-top: 1rem;
 }
 
+/* film */
+
+.filmContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+.film1 {
+  background-image: url("./assets/girls.JPG");
+  background-position: center;
+  background-size: 100%;
+}
+
+.film2 {
+  background-image: url("./assets/blue.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.film3 {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film4 {
+  background-image: url("./assets/france.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film5 {
+  background-image: url("./assets/metro.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.film6 {
+  background-image: url("./assets/dog2.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film7 {
+  background-image: url("./assets/werkkings.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film8 {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+.film9 {
+  background-image: url("./assets/walking3.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.film10 {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 130%;
+}
+
+.film11 {
+  background-image: url("./assets/yessssss.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film12 {
+  background-image: url("./assets/arm.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.film13 {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.film14 {
+  background-image: url("./assets/dancing4.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.film15 {
+  background-image: url("./assets/step2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.film16 {
+  background-image: url("./assets/dog.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+
+
+.horizontal:hover {
+  animation: film-expand 1s ease-in-out;
+}
+
+@keyframes film-expand {
+  100% {
+    transform: scale(1.1);
+  }
+  
+}
+
+.column {
+  width: 30rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column3 {
+  margin-top: -3rem;
+}
+
+.horizontal {
+  width: 25rem;
+  height: 50rem;
+  margin: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  animation: fall 1s ease;
+
+}
+
+@keyframes fall {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.column-one {
+  margin-top: 3rem;
+}
+
+.left-one {
+  width: 20rem;
+  height: 35rem;
+}
+
 /* iphones */
 @media (max-width: 500px) {
   body {
@@ -1109,7 +1281,7 @@ li {
       height: 30rem;
       justify-content: center;
       align-items: center;
-      margin: 10rem 2rem;
+      margin: 5rem 2rem;
       border-radius: 2px;
     }
 
@@ -1184,6 +1356,10 @@ li {
     .photoContainer h2 {
       background-color: transparent;
       margin-top: 65rem;
+    }
+
+    .filmContainer {
+
     }
 
   }

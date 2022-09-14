@@ -92,9 +92,6 @@ function Photography() {
             <button className="welcomeButton3 photoButton2"></button>
           </div>  
           <div className="subSection">
-            <img src={img7}/>
-          </div> 
-          <div className="subSection">
             <img src={img2}/>
             <p>Boston, 2022</p>
           </div> 

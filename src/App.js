@@ -7,6 +7,7 @@ import ContactForm from "./components/ContactForm";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
 import BarLoader from "react-spinners/BarLoader";
+import Film from "./components/Film"
 
 function App() {
   const [loading, setloading] = useState(false)
@@ -57,6 +58,9 @@ function App() {
             <Link className="link" to="/photography">Gallery</Link>
             </li>
             <li>
+            <Link className="link" to="/film">Film</Link>
+            </li>
+            <li>
             <Link className="link" to="/contact">Contact</Link>
             </li>
             </div>
@@ -68,6 +72,7 @@ function App() {
         <Route path="/contact" element={<ContactForm />}/>
         <Route path="/photography" element={<Photography />}/>
         <Route path="/resume" element={<Resume />}/>
+        <Route path="/film" element={<Film />}/>
       </Routes>
       </div>
     </Router>
