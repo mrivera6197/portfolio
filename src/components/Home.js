@@ -15,9 +15,7 @@ function Home() {
 
   return(
     <>
-    <div className="title" >
-          <h3>lemoncub</h3>
-        </div>
+    <div className="photoPage">
     <div className="smallContainer" >
           <div className="homeContent">
             <div className="homeSub">
@@ -36,13 +34,13 @@ function Home() {
           {/* <img className="back-img" src={logo} /> */}
           <div className="imgContainer2">
             <div className="btnContainer">
-              <p className="help">follow the ...</p>
             <button className="welcomeButton3"></button>
             <button  onClick={() => {setRedirect(true)}} className="welcomeButton">...</button>
             <button className="welcomeButton2"></button>
             </div>
           </div>
           </div>
+    </div>
     </div>
     </>
   )

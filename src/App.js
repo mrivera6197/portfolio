@@ -8,6 +8,7 @@ import Resume from "./components/Resume";
 import Home from "./components/Home";
 import BarLoader from "react-spinners/BarLoader";
 import Film from "./components/Film"
+import Interstellar from "./components/Interstellar"
 
 function App() {
   const [loading, setloading] = useState(false)
@@ -56,13 +57,13 @@ function App() {
             <div className="subNav">
             <li>
             <Link className="link" to="/photography">Gallery</Link>
-            </li>
+            </li> 
             <li>
-            <Link className="link" to="/film">Film</Link>
+            <Link className="link" to="/interstellar">interstellar</Link>
             </li>
             <li>
             <Link className="link" to="/contact">Contact</Link>
-            </li>
+            </li> 
             </div>
           </ul>
         </nav>
@@ -71,8 +72,8 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/contact" element={<ContactForm />}/>
         <Route path="/photography" element={<Photography />}/>
-        <Route path="/resume" element={<Resume />}/>
-        <Route path="/film" element={<Film />}/>
+        <Route path="/resume" element={<Resume />}/> 
+        <Route path="/interstellar" element={<Interstellar />}/>
       </Routes>
       </div>
     </Router>

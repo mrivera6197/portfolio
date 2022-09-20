@@ -11,7 +11,8 @@ function About() {
 }
 
 
-  return(
+  return( 
+    <div className="photoPage">
     <div className="smallContainer flexy"> 
     <div className="container1">  
     <button className="welcomeButton3 colorize"></button>
@@ -35,6 +36,7 @@ function About() {
      </div>
      
       </div>   
+      </div>
       </div>
   )
 }

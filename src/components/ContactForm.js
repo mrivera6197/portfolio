@@ -20,6 +20,7 @@ function ContactForm() {
   };
 
   return(
+    <div className="photoPage">
     <div className="formPage">
       <div className="formContainer"> 
       <div className="formTitle">
@@ -40,6 +41,7 @@ function ContactForm() {
 
       </div>
       </div>
+    </div> 
     </div>
   )
 }
