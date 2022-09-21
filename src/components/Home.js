@@ -31,7 +31,6 @@ function Home() {
             </div>
           </div>
           <div className="imgContainer" >
-          {/* <img className="back-img" src={logo} /> */}
           <div className="imgContainer2">
             <div className="btnContainer">
             <button className="welcomeButton3"></button>

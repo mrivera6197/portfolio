@@ -8,15 +8,44 @@ function interstellar() {
     <div className="photoPage">
     <div className="smallContainer roofy">
     <div className="roof">
-        <div className="narrow">
-        </div> 
-        <div className="narrow">
-        </div> 
-        <div className="narrow">
-        </div> 
-        <div className="narrow">
-        </div>
         <div className="roofSub">
+            <div className="panelTwo">
+            </div>
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div>  
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+            </div> 
+            <div className="panelTwo">
+        </div> 
+        </div>
+        </div> 
+
+        <div className="middlePanels">
+        <div className="narrow">
+        </div> 
         <div className="narrow">
         </div> 
         <div className="narrow">
@@ -29,6 +58,7 @@ function interstellar() {
         </div> 
         <div className="narrow">
         </div>
+        <div className="narrow">
         </div> 
         <div className="narrow">
         </div> 
@@ -42,27 +72,37 @@ function interstellar() {
         </div> 
         <div className="narrow">
         </div>
+
+        </div>
+
     </div> 
     <div className="walls">
     <div className="leftWall">
    
     <div className="leftWallSub">
-    <div className="roofSub">
+    <div className="panelTwo"></div>
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
-        <div className="panelTwo"></div>
-        </div>
-        
+
         <div className="leftWallContainer">
             <div className="panelTwo"></div>
             <div className="panelTwo"></div>
             <div className="panelTwo"></div>
             <div className="panelTwo"></div>
             <div className="panelTwo"></div>
-        </div>
+        </div> 
+
+        <div className="leftWallContainer">
+            <div className="panelTwo"></div>
+            <div className="panelTwo"></div>
+            <div className="panelTwo"></div>
+            <div className="panelTwo"></div>
+            <div className="panelTwo"></div>
+        </div> 
+        
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
         <div className="panelTwo"></div>
@@ -81,6 +121,10 @@ function interstellar() {
         <div className="panel"></div>
         <div className="panel"></div>
         <div className="panel"></div>
+        <div className="panel"></div> 
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
         <div className="panel"></div>
 
     </div> 
@@ -89,10 +133,69 @@ function interstellar() {
 
     <div className="rightWall">
         <div className="rightWallSub">
-
+        <div className="rightWallPurple">
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
         </div>
 
+        <div className="rightRightSub">
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+        <div className="panel"></div>
+            
+        </div> 
+
+
+        
+
+        </div>
+        <div className="leftWallContainer degreeSkew">
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+            <div className="panel"></div>
+        </div> 
+
     </div> 
+
+
+
+
     </div>
     <div className="backWall">
 

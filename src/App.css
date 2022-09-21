@@ -52,6 +52,7 @@ body{
   flex-direction: column;
   align-items: center;
   margin: 0 1rem;
+  overflow: auto;
 }
 
 
@@ -60,7 +61,6 @@ body{
   background-position: center;
   height: 100vh;
   width: 100%;  
-  overflow: auto;
   
 }
 
@@ -72,11 +72,10 @@ body{
   width: 100%;
   filter: opacity(.8);
   display: flex;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   animation: img-constant 1s ease-in;
-  overflow: auto;
-
 
 }
 
@@ -102,16 +101,11 @@ body{
   align-items: center;
   height: 100vh;
   width: 100%;
-  margin: 10rem 5rem;
+  margin: 0rem 5rem;
+  margin-top: 10rem;
   overflow: auto;
 }
 
-.title {
-  display: flex;
-  align-items: center;
-  width: 50rem;
-  
-}
 
 .title h3 {
   animation: title-load 300ms ease-in-out;
@@ -341,12 +335,13 @@ body{
   display: flex; 
   /* border: 1px solid blue;  */
   justify-content: center;
-  height: 80vh;
+  height: 70rem;
   background-image: url('./assets/blurred.jpg'); 
   background-repeat: no-repeat;  
   background-position: center;
   background-size: cover;
-  margin-top: 90rem;
+  margin-top: 95rem;
+  margin-bottom: 10rem;
   animation: background-transition 10s ease;
   animation-iteration-count: infinite; 
 } 
@@ -399,7 +394,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10rem 1rem;
+  margin: 5rem 1rem;
   width: 90%;
   gap: 14rem;
   background-color: rgba(255, 255, 255, 0.525);
@@ -543,7 +538,7 @@ iframe {
   align-items: center;
   background-color: rgba(247, 249, 249, 0.678);
   background-size: cover;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .subSection {
@@ -555,7 +550,7 @@ iframe {
   align-items: center;
   flex-direction: column; 
   animation: photo-in 2s ease; 
-  margin: 2rem;
+  margin: 1rem;
   border-radius: 20px;
   margin: 10rem;
   animation: faded-drank 3s ease-in;
@@ -617,12 +612,20 @@ iframe {
 .nav2 {
   width: 100%;
   display: flex; 
+  justify-content: space-between;
   padding: 2rem;
   animation: nav-load 400ms ease-in;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
   position: fixed;
   /* border: 1px solid green;  */
   background-color: rgba(255, 255, 255, 0.776);
+  
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   
 }
 
@@ -662,9 +665,10 @@ nav ul {
   justify-content: flex-end;
 }
 
-.title h3 {
-  font-size: 4rem;;
-  font-weight: 700;
+.title {
+  font-size: 2rem;;
+  margin-left: 5rem;
+  opacity: .7;
 }
 
 li {
@@ -1022,7 +1026,8 @@ li {
 .filmContainer {
   display: flex;
   justify-content: center;
-  margin-top: 12rem;
+  margin-top: 12rem; 
+  width: 60%;
 }
 
 .film1 {
@@ -1034,7 +1039,7 @@ li {
 .film2 {
   background-image: url("./assets/blue.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: 200%;
 }
 
 .film3 {
@@ -1045,10 +1050,10 @@ li {
 }
 
 .film4 {
-  background-image: url("./assets/france.JPG");
+  background-image: url("./assets/dog.JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 150%;
 }
 
 .film5 {
@@ -1058,7 +1063,7 @@ li {
   background-size: cover;
 }
 .film6 {
-  background-image: url("./assets/dog2.JPG");
+  background-image: url("./assets/vhsdog.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1068,7 +1073,7 @@ li {
   background-image: url("./assets/werkkings.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200%;
 }
 
 .film8 {
@@ -1080,10 +1085,10 @@ li {
 
 
 .film9 {
-  background-image: url("./assets/walking3.JPG");
+  background-image: url("./assets/bikingdude.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 200%;
 }
 .film10 {
   background-image: url("");
@@ -1094,10 +1099,10 @@ li {
 }
 
 .film11 {
-  background-image: url("./assets/yessssss.JPG");
+  background-image: url("./assets/photos.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 170%;
 }
 
 .film12 {
@@ -1129,7 +1134,7 @@ li {
 } 
 
 .film16 {
-  background-image: url("./assets/dog.JPG");
+  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1194,9 +1199,27 @@ li {
 .roofy {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
   overflow: auto;
+  border: 1px solid white;
+  background-color: rgba(51, 51, 51, 0.491);
+  animation: panelBackground 3s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes panelBackground {
+  0% {
+    background-color: #333;
+  }
+
+  50% {
+    background-color: rgba(0, 0, 0, 0.412);
+  }
+
+  100% {
+    background-color: rgba(34, 34, 30, 0.795);
+  }
+  
 }
 
 .walls {
@@ -1207,55 +1230,137 @@ li {
   width: 1rem;
   height: 100%;
   margin: 0 .3rem;
-  animation: wave 600ms ease; 
+  animation: wave 4s ease-in-out, 
+  panelExpand 5s ease; 
   animation-iteration-count: infinite;
-  background-image: url("./assets/vhsdog.jpg");
-  background-position: center;
-  background-size: 2%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: 1px solid white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .rightWall {
-  border: 1px solid red;   
-  height: 40vh;
-  width: 40rem;
-  overflow: hidden;
-}
-
-.leftWallSub {
-  border: 1px solid yellow;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 25rem;
+  align-items: center;
   height: 100%;
-  transform: skew(-15deg)
+  width: 50rem;
+  overflow: hidden;
+  margin-right: 4rem;
+  background-color: rgba(51, 51, 51, 0.314);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.rightWallSub {
+  height: 90%;
+  width: 90%;
+  display: flex; 
+  transform: skew(1deg);
+  background-color: rgba(51, 51, 51, 0.087);
+  animation: boxExpand 1s ease;
+}
+
+
+.rightWallPurple {
+  display: flex;
+  justify-content: center;
+}
+
+.rightRightSub {
+  width: 20rem;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  transform: skew(2deg);
+  background-color: rgba(51, 51, 51, 0.668);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-image: url("./assets/vhsdog.jpg");
+  background-position: center;
+  background-size: 100%;
+  animation: boxExpand 1s ease;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes boxExpand {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+   background-size: 200%;
+  }
+  
+}
+
+.leftWallSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30rem;
+  height: 1005;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: skew(-15deg);
 }
 
 .leftWallContainer {
   margin: 1rem;
+  transform: skew(-5deg);
+  background-color: rgba(51, 51, 51, 0.438);
+}
+
+.degreeSkew {
+  transform: skew(60deg);
+  display: flex;
+  justify-content: space-around;
+  height: 20%;
+  width: 200%;
+  background-image: url("./assets/vhsdog.jpg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .leftSubSub {
   display: flex;
-  border: 1px solid purple;
-  width: 14rem;
+  width: 25rem;
+  height: 100%;
+  background-color: #333;
+  background-image: url("./assets/vhsdog.jpg");
+  background-size: 100%;
+  border: 1px solid greenyellow;
+  animation: boxSlide 1s ease;
+  animation-iteration-count: infinite;
 }
+
+@keyframes boxSlide {
+  0% {
+    background-position-y: 10rem;
+  }
+  100% {
+    background-position-y: 20rem;
+  }
+}
+
 
 .roofSub {
   display: flex;
   flex-direction: column;
+  background-color: rgba(51, 51, 51, 0.393);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid greenyellow;
+  background-image: url("./assets/vhsdog.jpg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .panelTwo {
-  height:.3rem;
+  height: 1rem;
   margin: .2rem;
   width: 100%;
-  animation: slider 1s ease; 
+  animation: slider 4s ease-in-out, 
+  panelExpand 5s ease, 
+  boxShadow 5s ease; 
+  border: 1px solid white;
   animation-iteration-count: infinite;
-  background-image: url("./assets/citylife.jpg");
-  background-position: center;
-  background-size: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -1264,60 +1369,71 @@ li {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(.5rem);
+    transform: translateX(1rem);
   }
   
 }
+
 
 .leftWall {
   display: flex;
   justify-content:center;
   height: 50vh;
-  width: 80rem;
+  width: 70rem;
   transform: skew(-5deg);
+  background-color: rgba(0, 0, 0, 0.352);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-image: url("./assets/vhsdog.jpg");
   background-position: center;
   background-size: 100%;
 } 
 
 .backWall {
-  border: 1px solid blue;
 }
 
 .roof {
   display: flex;
   justify-content: center;
-  border: 1px solid purple; 
-  height: 30vh; 
-  width: 90%;
-  transform: skew(60deg);
-  background-image: url("");
-  background-position: center;
-  background-size: 100%;
+  align-items: center;
+  
+ 
+  height: 20rem; 
+  width: 140%;
+  transform: skew(20deg);
+  background-color: rgba(51, 51, 51, 0.212);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
 }
 
 .roofSub {
-  border: 1px solid black;
+
   display: flex;
-  justify-content: center;
-  background-image: url("");
-  background-position: center;
-  background-size: 100%;
-  width: 25rem;
-  height: 20vh;
+  width: 100%;
+  height: 20rem;
   transform: skew(-80deg);
   margin-left: -20rem; 
+}
+
+.middlePanels {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  margin-right: 40rem;
+  transform: skew(70deg);
+  width: 60rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .narrow {
   height: 100%;
   width: 1rem;
-  animation: wave 1s ease; 
+  animation: wave 4s ease-in-out, 
+  panelExpand 5s ease;
   animation-iteration-count: infinite;
-  background-image: url("./assets/interesting1.jpg");
-  background-position: center;
-  background-size: 3%;
-  margin: 0.2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: 1px solid white;
+  margin: 1rem;
+  box-shadow: rgba(249, 246, 246, 5) 0px 5px 15px 0;
 }
 
 @keyframes wave {
@@ -1325,11 +1441,30 @@ li {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(.7rem);
+    transform: translateY(1rem);
   }
 }
 
+@keyframes panelExpand {
+  0% {
+    transform: scale(.9);
+  }
+  70% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
 
+@keyframes boxShadow {
+
+  100% {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  
+  }
+
+}
 
 
 
@@ -1341,7 +1476,7 @@ li {
 
   .smallContainer {
     height: 100vh;
-    margin: 2rem 0;  
+    margin: 0;  
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     max-height: 700px;
     background-position: cover;
@@ -1351,6 +1486,7 @@ li {
     background-position: cover;
     background-position-y: -50rem;
     background-repeat: no-repeat;
+    margin-top: 1rem;
   }  
   
   .homeContent {
@@ -1382,6 +1518,14 @@ li {
       height: 90vh; 
       background-color: black;
     }
+
+    .nav2 {
+      padding:0 1rem;
+      height: 7rem;
+      justify-content: center;
+      align-items: center;
+      opacity: .8;
+    }
   
     .container1 {
       background-size: cover;
@@ -1402,14 +1546,13 @@ li {
     }
 
     .photoContainer {
-      height: 80vh; 
+      height: 60rem; 
       background-size: cover;
-      margin-top: 79rem;
+      margin-top: 95rem;
 
     }
 
     .photoGallery {
-      /* background-image: url("./assets/museum.jpg"); */
       background-position: center;
       background-size: 200%;
     }
@@ -1494,6 +1637,28 @@ li {
    .photoPage {
     margin-top: 5rem;
     height: 100vh;
+    }
+
+    /* interstellar */
+
+    .roof {
+      height: 20rem;
+      overflow: auto;
+    }
+
+    .walls {
+      height: 50rem;
+    }
+
+    .leftWall {
+      width: 20rem;
+      background-size: 80%;
+    }
+
+
+    .rightWall {
+      width: 20rem;
+      background-size: 70%;
     }
 
   }

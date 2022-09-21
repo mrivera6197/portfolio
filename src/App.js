@@ -45,7 +45,8 @@ function App() {
     <Router>
       <div className="bigContainer"> 
       <nav className="nav2">
-          <ul>
+        <div className="flexEnd">
+        <ul>
             <div className="subNav">
             <li>
             <Link className="link" to="/">Home</Link>
@@ -66,6 +67,8 @@ function App() {
             </li> 
             </div>
           </ul>
+
+        </div>
         </nav>
       <Routes>
         <Route path="/" element={<Home />}/>

@@ -10,7 +10,7 @@ function Film() {
                 </div>
                 <div className="horizontal film14">
                 </div>
-                <div className="horizontal film15">
+                <div className="horizontal ">
                 </div>
                 <div className="horizontal film16">
                 </div>

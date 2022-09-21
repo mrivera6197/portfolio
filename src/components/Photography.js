@@ -77,10 +77,7 @@ function Photography() {
         </div>
         <div className="subSections">
 
-          {/* <div className="subSection">
-          <img src={img4}/>
-          <p>France, 2022</p>
-          </div>  */}
+  
           <div className="subSection">
             <img src={img3}/>
             <p>Orange County, 2022</p>
@@ -95,6 +92,10 @@ function Photography() {
           <button className="welcomeButton3 photoButton"></button>
           <iframe title="vimeo-player" src="https://player.vimeo.com/video/751411728?h=2f54f50057" width="640" height="640" frameborder="0" allowfullscreen></iframe>
         </div>
+
+          <Film />
+
+
           <div className="subSection">
             <img src={img5}/>
             <p>Los Angeles, 2022</p>
@@ -144,8 +145,6 @@ function Photography() {
           </div>
         </div>
         </div>
-
-        <Film />
 
 
 
