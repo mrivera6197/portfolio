@@ -7,7 +7,7 @@ import ContactForm from "./components/ContactForm";
 import Resume from "./components/Resume";
 import Home from "./components/Home";
 import BarLoader from "react-spinners/BarLoader";
-import Film from "./components/Film"
+import Flume from "./components/Flume"
 import Interstellar from "./components/Interstellar"
 
 function App() {
@@ -64,7 +64,7 @@ function App() {
             </li>
             <li>
             <Link className="link" to="/contact">Contact</Link>
-            </li> 
+            </li>   
             </div>
           </ul>
 

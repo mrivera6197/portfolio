@@ -331,6 +331,10 @@ body{
   overflow: auto; 
 }
 
+.gallery {
+  background-image: url("./assets/citylife.jpg");
+}
+
 .photoContainer {
   display: flex; 
   /* border: 1px solid blue;  */
@@ -437,25 +441,48 @@ iframe {
 }
 
 .mid-section {
-  height: 20rem;
-  width: 60%;
+  height: 40rem;
+  width: 70%;
   margin: 10rem 0; 
-  background-image: url("./assets/walking.jpg");
+  background-image: url("./assets/wakling7.jpg");
   background-position-y: -10rem;
   background-repeat: no-repeat;
-  opacity: .7;
+  opacity: .9;
   background-size: 100%; 
   display: flex;
+  animation: mid-background 7s ease; 
+  animation-iteration-count: infinite;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  /* justify-content: center; */
 
+}
+
+@keyframes mid-background {
+  0% {
+    background-image: url("./assets/wakling7.jpg");
+  } 
+  30% {
+    background-image: url("./assets/nyera.jpg");
+  } 
+  100% {
+    background-image: url("./assets/oculus.jpg");
+  }
+  
+}
+
+@keyframes mid-expand {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
 }
 
 .mid-sub {
   width: 10rem;
   height: 100%;
   margin: 0 2rem;
-  background-image: url("./assets/yup.jpg");
+  background-image: url("./assets/quirky2.jpg");
   background-position: center;
   background-size: auto;
   animation: offset 2s ease-in-out;
@@ -536,15 +563,15 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(247, 249, 249, 0.678);
+  background-color: rgba(247, 249, 249, 0.234);
   background-size: cover;
   margin: 1rem;
 }
 
 .subSection {
   display: flex; 
+  border: 1px solid red;
   overflow: hidden;
-  height: 60rem;
   width: 60%; 
   justify-content: center;
   align-items: center;
@@ -1031,14 +1058,13 @@ li {
 }
 
 .film1 {
-  background-image: url("./assets/girls.JPG");
+  background-image: url("./assets/photos.jpg");
   background-position: center;
   background-size: 100%;
 }
 
 .film2 {
-  background-image: url("./assets/blue.jpg");
-  background-position: center;
+  background-image: url("./assets/nyera.jpg");
   background-size: 200%;
 }
 
@@ -1050,14 +1076,14 @@ li {
 }
 
 .film4 {
-  background-image: url("./assets/dog.JPG");
+  background-image: url("./assets/quirky2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
 }
 
 .film5 {
-  background-image: url("./assets/metro.JPG");
+  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1070,7 +1096,7 @@ li {
 }
 
 .film7 {
-  background-image: url("./assets/werkkings.jpg");
+  background-image: url("./assets/oculus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 200%;
@@ -1155,7 +1181,7 @@ li {
 }
 
 .column {
-  width: 30rem;
+  width: 40rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1168,8 +1194,8 @@ li {
 }
 
 .horizontal {
-  width: 25rem;
-  height: 50rem;
+  width: 30rem;
+  height: 60rem;
   margin: 2rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   animation: fall 1s ease;
@@ -1466,6 +1492,55 @@ li {
 
 }
 
+/* flume */
+
+.flume {
+  display: flex;
+  align-items: center;
+  width: 150rem;
+  height: 50vh;
+  background-color: #333; 
+  justify-content: space-around; 
+  background-image: url("./assets/skirts4.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+
+.rect1 {
+  height: 40vh;
+  width: 3rem;
+  background-color: rgba(253, 247, 247, 0.788);
+  animation: flume1 1s ease;
+  animation-iteration-count: infinite;
+}
+
+.rect2 {
+  height: 35vh;
+  width: 3rem;
+  background-color: rgba(253, 247, 247, 0.788);
+  animation: flume1 1.5s ease;
+  animation-iteration-count: infinite;
+} 
+
+.rect3 {
+  height: 30vh;
+  width: 3rem;
+  background-color: rgba(253, 247, 247, 0.788);
+  animation: flume1 2s ease;
+  animation-iteration-count: infinite;
+} 
+
+@keyframes flume1 {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
+
+
 
 
 /* iphones */
@@ -1479,7 +1554,6 @@ li {
     margin: 0;  
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     max-height: 700px;
-    background-position: cover;
   }
 
   .imgContainer2 {

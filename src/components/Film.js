@@ -6,7 +6,7 @@ function Film() {
         <>
         <div className="filmContainer">
             <div className="column column-one">
-                <div className="horizontal left-one film13">
+                <div className="horizontal left-one film10">
                 </div>
                 <div className="horizontal film14">
                 </div>
@@ -33,16 +33,6 @@ function Film() {
                 <div className="horizontal film7">
                 </div>
                 <div className="horizontal left-one film8">
-                </div>
-            </div>
-            <div className="column">
-            <div className="horizontal film9">
-                </div>
-                <div className="horizontal left-one film10">
-                </div>
-                <div className="horizontal film11">
-                </div>
-                <div className="horizontal film12">
                 </div>
             </div>
         </div>
